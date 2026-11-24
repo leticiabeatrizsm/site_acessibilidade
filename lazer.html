@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazer | Acessibilidade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a href="#conteudo" class="pular">Pular para o conteúdo</a>
+
+    <header>
+        <div class="topo">
+            <h2>Acessibilidade no Dia a Dia</h2>
+            <p>Informação para uma sociedade mais inclusiva</p>
+        </div>
+
+        <nav aria-label="Menu principal">
+            <a href="index.html">Início</a>
+            <a href="comunicacao.html">Comunicação</a>
+            <a href="tecnologia.html">Tecnologia</a>
+            <a href="educacao.html">Educação e Trabalho</a>
+            <a href="mobilidade.html">Mobilidade</a>
+            <a href="lazer.html" aria-current="page">Lazer</a>
+            <a href="saude.html">Saúde</a>
+        </nav>
+
+        <div class="controles">
+            <button onclick="alterarFonte(-10)" aria-label="Diminuir texto">A-</button>
+            <button onclick="alterarFonte(10)" aria-label="Aumentar texto">A+</button>
+            <button onclick="alternarContraste()" aria-pressed="false" id="contraste">
+                Alto contraste
+            </button>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <article class="conteudo">
+
+            <span class="categoria">ACESSIBILIDADE NA PRÁTICA</span>
+
+            <h1>Lazer e cultura para todos</h1>
+
+            <p class="introducao">
+                O lazer é um direito de todas as pessoas. Garantir espaços
+                e atividades acessíveis permite que todos possam aproveitar
+                momentos de diversão, cultura e convivência social.
+            </p>
+
+            <h2>1. O que é lazer acessível?</h2>
+
+            <p>
+                Lazer acessível significa proporcionar condições para que
+                pessoas com diferentes tipos de deficiência possam participar
+                de atividades recreativas, culturais, esportivas e turísticas.
+            </p>
+
+            <p>
+                A inclusão no lazer não depende apenas da existência de rampas
+                ou elevadores. Também envolve comunicação adequada, profissionais
+                preparados e atividades planejadas para diferentes necessidades.
+            </p>
+
+            <h2>2. Acessibilidade em parques e espaços públicos</h2>
+
+            <p>
+                Parques, praças e áreas de convivência devem permitir que
+                todas as pessoas circulem e aproveitem o ambiente.
+                Algumas adaptações importantes são:
+            </p>
+
+            <ul>
+                <li>Rampas e caminhos acessíveis;</li>
+                <li>Banheiros adaptados;</li>
+                <li>Placas com informações visíveis e legíveis;</li>
+                <li>Pisos adequados para circulação de cadeirantes;</li>
+                <li>Brinquedos acessíveis em parques infantis;</li>
+                <li>Espaços de descanso e assentos adequados.</li>
+            </ul>
+
+            <h2>3. Cinema, teatro e eventos culturais</h2>
+
+            <p>
+                A cultura deve estar disponível para todos. Cinemas, teatros,
+                museus e eventos precisam oferecer recursos que permitam
+                a participação de pessoas com diferentes necessidades.
+            </p>
+
+            <ul>
+                <li>
+                    Audiodescrição: recurso que descreve elementos visuais
+                    importantes para pessoas cegas ou com baixa visão.
+                </li>
+                <li>
+                    Legendas: permitem acompanhar diálogos e informações
+                    sonoras por meio de texto.
+                </li>
+                <li>
+                    Interpretação em Libras: facilita o acesso de pessoas
+                    surdas às informações apresentadas.
+                </li>
+                <li>
+                    Espaços reservados: garantem acomodação adequada para
+                    pessoas com deficiência e seus acompanhantes.
+                </li>
+            </ul>
+
+            <h2>4. Esportes e atividades físicas inclusivas</h2>
+
+            <p>
+                A prática de esportes contribui para a saúde, o bem-estar
+                e a socialização. Por isso, atividades físicas devem
+                considerar as necessidades de cada participante.
+            </p>
+
+            <p>
+                Existem modalidades adaptadas, como o basquete em cadeira
+                de rodas, o goalball e a natação paralímpica. Essas práticas
+                demonstram que o esporte pode ser realizado por pessoas
+                com diferentes habilidades.
+            </p>
+
+            <h2>5. Turismo acessível</h2>
+
+            <p>
+                Viajar e conhecer novos lugares também deve ser uma
+                possibilidade para todos. Hotéis, restaurantes, pontos
+                turísticos e meios de transporte precisam oferecer
+                condições adequadas de acessibilidade.
+            </p>
+
+            <p>
+                Informações claras sobre acessibilidade, atendimento
+                preparado e estruturas adaptadas ajudam a proporcionar
+                experiências mais seguras e independentes.
+            </p>
+
+            <div class="destaque">
+                <strong>Você sabia?</strong>
+                <p>
+                    A Lei Brasileira de Inclusão (Lei nº 13.146/2015)
+                    também estabelece direitos relacionados à cultura,
+                    ao esporte, ao turismo e ao lazer para pessoas com deficiência.
+                </p>
+            </div>
+
+            <h2>6. Como tornar o lazer mais inclusivo?</h2>
+
+            <ul>
+                <li>Respeitar os espaços reservados;</li>
+                <li>Não bloquear rampas e caminhos acessíveis;</li>
+                <li>Oferecer informações em diferentes formatos;</li>
+                <li>Respeitar as necessidades de cada pessoa;</li>
+                <li>Incentivar atividades que permitam a participação de todos.</li>
+            </ul>
+
+            <h2>7. A importância do lazer na inclusão social</h2>
+
+            <p>
+                O acesso ao lazer contribui para a qualidade de vida,
+                a autonomia e a participação social. Quando os espaços
+                são planejados para todos, a sociedade se torna mais
+                acolhedora, justa e inclusiva.
+            </p>
+
+            <a href="saude.html" class="proximo">
+                Próxima página: Saúde →
+            </a>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Acessibilidade no Dia a Dia - Projeto acadêmico</p>
+        <p>Informação e inclusão para todos.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia | Acessibilidade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a href="#conteudo" class="pular">Pular para o conteúdo</a>
+
+    <header>
+        <div class="topo">
+            <h2>Acessibilidade no Dia a Dia</h2>
+            <p>Informação para uma sociedade mais inclusiva</p>
+        </div>
+
+   <nav aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="comunicacao.html">Comunicação</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="educacao.html">Educação e Trabalho</a>
+        <a href="mobilidade.html">Mobilidade</a>
+        <a href="lazer.html">Lazer e Cultura</a>
+        <a href="saude.html">Saúde</a>
+    </nav>
+
+        <div class="controles">
+            <button onclick="alterarFonte(-10)" aria-label="Diminuir texto">A-</button>
+            <button onclick="alterarFonte(10)" aria-label="Aumentar texto">A+</button>
+            <button onclick="alternarContraste()" aria-pressed="false" id="contraste">
+                Alto contraste
+            </button>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <article class="conteudo">
+
+            <span class="categoria">ACESSIBILIDADE NA PRÁTICA</span>
+
+            <h1>Tecnologia como ferramenta de inclusão</h1>
+
+            <p class="introducao">
+                A tecnologia pode facilitar a rotina de pessoas com
+                deficiência, oferecendo mais autonomia, comunicação
+                e acesso à informação.
+            </p>
+
+            <h2>1. O que é tecnologia assistiva?</h2>
+
+            <p>
+                Tecnologia assistiva é o conjunto de recursos, equipamentos,
+                estratégias e serviços que ajudam pessoas com deficiência
+                a realizar atividades cotidianas com mais independência.
+            </p>
+
+            <p>
+                Esses recursos podem estar presentes em celulares,
+                computadores, aplicativos e equipamentos específicos,
+                contribuindo para a participação das pessoas em diferentes
+                ambientes da sociedade.
+            </p>
+
+            <h2>2. Leitores de tela</h2>
+
+            <p>
+                Os leitores de tela são programas que identificam os
+                elementos apresentados na tela e transformam as informações
+                em áudio ou braille. Eles são utilizados principalmente
+                por pessoas cegas ou com deficiência visual.
+            </p>
+
+            <p>
+                Alguns exemplos são:
+            </p>
+
+            <ul>
+                <li>NVDA: leitor de tela gratuito para computadores Windows;</li>
+                <li>JAWS: software de leitura de tela para computadores;</li>
+                <li>TalkBack: recurso de acessibilidade presente em dispositivos Android;</li>
+                <li>VoiceOver: leitor de tela disponível em dispositivos Apple.</li>
+            </ul>
+
+            <h2>3. Recursos de acessibilidade nos celulares</h2>
+
+            <p>
+                Os smartphones possuem diversas ferramentas que permitem
+                adaptar o aparelho às necessidades de cada pessoa.
+            </p>
+
+            <ul>
+                <li>Aumento do tamanho das letras;</li>
+                <li>Ampliação de tela;</li>
+                <li>Comandos por voz;</li>
+                <li>Legendas automáticas;</li>
+                <li>Leitores de tela;</li>
+                <li>Controle por gestos e movimentos.</li>
+            </ul>
+
+            <h2>4. Aplicativos que ajudam na inclusão</h2>
+
+            <p>
+                Existem aplicativos desenvolvidos para facilitar atividades
+                do cotidiano e ampliar a independência das pessoas.
+            </p>
+
+            <h3>Be My Eyes</h3>
+
+            <p>
+                Aplicativo que conecta pessoas cegas ou com baixa visão
+                a voluntários e recursos de inteligência artificial
+                para auxiliar na identificação de objetos e situações.
+            </p>
+
+            <h3>Hand Talk</h3>
+
+            <p>
+                Plataforma que utiliza um tradutor virtual para converter
+                textos e áudios em Língua Brasileira de Sinais (Libras),
+                contribuindo para a comunicação inclusiva.
+            </p>
+
+            <h3>Google Live Transcribe</h3>
+
+            <p>
+                Ferramenta que transforma falas em textos na tela,
+                auxiliando principalmente pessoas surdas ou com
+                deficiência auditiva.
+            </p>
+
+            <div class="destaque">
+                <strong>Importante!</strong>
+                <p>
+                    A tecnologia assistiva não substitui a necessidade
+                    de ambientes acessíveis. Ela deve ser utilizada
+                    como uma ferramenta complementar para promover
+                    autonomia e inclusão.
+                </p>
+            </div>
+
+            <h2>5. A importância da acessibilidade digital</h2>
+
+            <p>
+                Sites, aplicativos e plataformas digitais precisam ser
+                desenvolvidos considerando diferentes necessidades.
+                Textos alternativos em imagens, navegação pelo teclado,
+                contraste adequado e legendas são exemplos de práticas
+                que tornam a internet mais acessível.
+            </p>
+
+            <p>
+                Quando os recursos digitais são planejados para todos,
+                mais pessoas conseguem estudar, trabalhar, se comunicar
+                e acessar informações sem barreiras.
+            </p>
+
+            <a href="educacao.html" class="proximo">
+                Próxima página: Educação e Trabalho →
+            </a>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Acessibilidade no Dia a Dia - Projeto acadêmico</p>
+        <p>Informação e inclusão para todos.</p>
+    </footer>
+
+</body>
+</html>
