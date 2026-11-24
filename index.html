@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade no Dia a Dia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<a href="#conteudo" class="pular">Pular para o conteúdo</a>
+
+<header>
+    <div class="topo">
+        <h2>Acessibilidade no Dia a Dia</h2>
+        <p>Informação para uma sociedade mais inclusiva</p>
+    </div>
+
+    <nav aria-label="Menu principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="comunicacao.html">Comunicação</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="educacao.html">Educação e Trabalho</a>
+        <a href="mobilidade.html">Mobilidade</a>
+    </nav>
+
+    <div class="controles">
+        <button onclick="alterarFonte(-10)" aria-label="Diminuir texto">A−</button>
+        <button onclick="alterarFonte(10)" aria-label="Aumentar texto">A+</button>
+        <button onclick="alternarContraste()" aria-pressed="false" id="contraste">Alto contraste</button>
+    </div>
+</header>
+
+<main id="conteudo">
+    <section class="banner">
+        <span>INCLUSÃO COMEÇA NO COTIDIANO</span>
+        <h1>Acessibilidade é garantir que todos possam participar.</h1>
+        <p>A acessibilidade permite que pessoas com diferentes necessidades possam utilizar espaços, serviços, informações e tecnologias com autonomia e segurança.</p>
+        <a href="comunicacao.html" class="botao">Conheça o projeto</a>
+    </section>
+
+    <section>
+        <h2>Onde a acessibilidade faz diferença?</h2>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Comunicação</h3>
+                <p>Legendas, Libras e informações claras ajudam a tornar a comunicação acessível.</p>
+                <a href="comunicacao.html">Saiba mais</a>
+            </article>
+
+            <article class="card">
+                <h3>Tecnologia</h3>
+                <p>Sites e aplicativos devem ser desenvolvidos pensando em todos os usuários.</p>
+                <a href="tecnologia.html">Saiba mais</a>
+            </article>
+
+            <article class="card">
+                <h3>Educação e trabalho</h3>
+                <p>Ambientes inclusivos oferecem oportunidades de aprendizagem e desenvolvimento.</p>
+                <a href="educacao.html">Saiba mais</a>
+            </article>
+
+            <article class="card">
+                <h3>Mobilidade</h3>
+                <p>Ruas, calçadas e transportes precisam permitir o deslocamento de todos.</p>
+                <a href="mobilidade.html">Saiba mais</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="destaque">
+        <h2>Por que a acessibilidade é importante?</h2>
+        <p>Muitas dificuldades enfrentadas pelas pessoas não estão nelas, mas nas barreiras existentes nos ambientes e serviços. Pequenas mudanças podem proporcionar mais independência e participação.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Projeto acadêmico - Acessibilidade no Dia a Dia</p>
+    <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+</footer>
+
+</body>
+</html>

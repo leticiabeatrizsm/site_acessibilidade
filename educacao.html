@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação e Trabalho | Acessibilidade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<a href="#conteudo" class="pular">Pular para o conteúdo</a>
+
+<header>
+    <div class="topo">
+        <h2>Acessibilidade no Dia a Dia</h2>
+        <p>Informação para uma sociedade mais inclusiva</p>
+    </div>
+    <nav aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="comunicacao.html">Comunicação</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="educacao.html" aria-current="page">Educação e Trabalho</a>
+        <a href="mobilidade.html">Mobilidade</a>
+    </nav>
+    <div class="controles">
+        <button onclick="alterarFonte(-10)" aria-label="Diminuir texto">A−</button>
+        <button onclick="alterarFonte(10)" aria-label="Aumentar texto">A+</button>
+        <button onclick="alternarContraste()" aria-pressed="false" id="contraste">Alto contraste</button>
+    </div>
+</header>
+
+<main id="conteudo" class="conteudo">
+    <span class="categoria">PARTICIPAÇÃO E OPORTUNIDADES</span>
+    <h1>Acessibilidade na educação e no trabalho</h1>
+
+    <p class="introducao">A educação e o trabalho são importantes para o desenvolvimento pessoal e profissional. Todos devem ter condições de participar desses ambientes.</p>
+
+    <h2>Na escola e na faculdade</h2>
+
+    <ul>
+        <li>Disponibilizar materiais digitais compatíveis com leitores de tela.</li>
+        <li>Oferecer vídeos com legendas e interpretação em Libras quando necessário.</li>
+        <li>Organizar salas com circulação adequada.</li>
+        <li>Utilizar instruções claras e materiais bem organizados.</li>
+        <li>Respeitar diferentes formas de aprendizagem.</li>
+    </ul>
+
+    <h2>No ambiente de trabalho</h2>
+
+    <p>As empresas podem promover a inclusão oferecendo espaços físicos acessíveis, ferramentas compatíveis com tecnologias assistivas e processos seletivos que respeitem as necessidades dos candidatos.</p>
+
+    <h2>Exemplo cotidiano</h2>
+
+    <p>Imagine que uma empresa disponibiliza um treinamento somente em vídeo, sem legendas ou transcrição. Algumas pessoas podem ter dificuldade para acompanhar o conteúdo. Ao adicionar legendas e um resumo escrito, a informação se torna acessível a mais participantes.</p>
+
+    <div class="destaque">
+        <strong>Inclusão não é favor:</strong>
+        É criar condições para que todas as pessoas tenham acesso, participação e oportunidades.
+    </div>
+
+    <a href="mobilidade.html" class="proximo">Próxima página: Mobilidade →</a>
+</main>
+
+<footer>
+    <p>Projeto acadêmico - Acessibilidade no Dia a Dia</p>
+    <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+</footer>
+
+</body>
+</html>
